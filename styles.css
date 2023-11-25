@@ -18,16 +18,12 @@ body {
   flex-wrap: wrap;
 }
 
+/* zamiast w 23 .container > div {} */
+
 .box-container {
   width: 30%;
   height: 50px;
-  background-color: purple;
+  background-color: green;
   margin-right: 5%;
   margin-bottom: 10px;
-}
-
-@media (min: 768px) {
-  .box-container {
-    width: 48%;
-  }
 }
